@@ -3,6 +3,20 @@ browser-useをgeminiとstreamlitで動かすサンプル
 
 ## 環境設定
 - windowsの場合は、wsl2をインストールし、wsl2のubuntuで動かして下さい
+- wsl2 に google chormeをインストール
+```bash
+sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+sudo wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+sudo apt update
+sudo apt install google-chrome-stable
+```
+- wsl2 に google chormeの文字化け対応
+```bash
+sudo apt install language-pack-ja
+sudo apt install fonts-ipafont
+sudo apt install fonts-ipaexfont
+fc-cache -fv
+```
 
 - githubからbrowser-use-gemini-streamlit-sampleをコピー
 ```bash
