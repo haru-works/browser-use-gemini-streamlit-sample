@@ -6,8 +6,13 @@ browser-useをgeminiとstreamlitで動かすサンプル
 
 - githubからbrowser-use-gemini-streamlit-sampleをコピー
 ```bash
-pip install browser-use
+git clone https://github.com/haru-works/browser-use-gemini-streamlit-sample.git
 ```
+- フォルダ移動
+```bash
+cd browser-use-gemini-streamlit-sample
+```
+- pythonの仮想環境作る(python 3.11.xx以上)
   
 - pip で browser-useを入れる
 ```bash
