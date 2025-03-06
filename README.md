@@ -55,4 +55,6 @@ GOOGLE_API_KEY=ここにGeminiのAPIキーセット
 streamlit run main.py
 ```
 
-  
+## 動作デモ
+https://github.com/user-attachments/assets/81f9ffaf-fd36-4d0a-a721-066a1e957902
+
