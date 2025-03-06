@@ -26,4 +26,19 @@ playwright install
 ```bash
 pip install -r requirements.txt
 ```
+- .env_sampleをコピーして.env作る
+```bash
+cp .env_sample .env
+```
+- .envを開いて環境変数の編集
+```bash
+GOOGLE_API_KEY=ここにGeminiのAPIキーセット
+```
+※Geminiの設定方法は、[こちら](https://ai.google.dev/gemini-api/docs?hl=ja)からやってね
+
+- アプリ起動
+```bash
+streamlit run main.py
+```
+
   
